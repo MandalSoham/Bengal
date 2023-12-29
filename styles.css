@@ -1,0 +1,223 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #84b2da; /* Light blue for the body */
+  color: #000; /* Black font color for the body */
+}
+
+header {
+  background-color: #5ca6f5; /* Darker blue for the header */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: #fff; /* White font color for the header */
+}
+
+.container {
+  max-width: 1200px; /* Set a maximum width for responsiveness */
+  margin: 0 auto; /* Center the container */
+}
+
+.logo,
+.company-name,
+.sections {
+  display: inline-block;
+}
+.logo {
+  margin-right: 20px;
+  position: absolute;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+}
+.company-name {
+  font-family: 'Coolvetica';
+  font-size: 75px;
+  font-weight: bold;
+}
+.sections {
+  position: absolute;
+  right: 10px;
+}
+
+.sections ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sections li {
+  margin-right: 20px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.sections li a {
+  text-decoration: none;
+  color: white;
+}
+.sections li a:hover {
+  border-bottom: 1px solid white;
+}
+main {
+    padding: 30px;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("Images/640px-Kanchenjunga_India.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.hero-content h1 {
+  padding-top: 80px; 
+}
+
+.hero a.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-card {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+  background-color: #000; 
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+  color: #ffffff;
+}
+/*
+.testimonial-slider {
+    /* Add your slider styles here */
+    #about {
+      padding: 40px;
+      background-color: #f5f5f5; /* Light gray background */
+      border-radius: 10px; /* Optional rounded corners */
+      text-align: center; /* Center align content */
+    }
+    
+    #about h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    #about p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    
+    #about img {
+      width: 300px; /* Adjust as needed */
+      height: 200px; /* Adjust as needed */
+      margin: 20px auto; /* Center the image */
+      border-radius: 10px; /* Optional rounded corners */
+    }
+    #contact {
+      padding: 40px;
+      background-color: #f0f0f0; /* Light gray background */
+      text-align: center; /* Center align content */
+    }
+    
+    #contact h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    #contact p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    
+    .contact-details {
+      margin-bottom: 30px;
+    }
+    
+    .contact-form {
+      width: 300px; /* Adjust as needed */
+      margin: 0 auto; /* Center the form */
+    }
+    
+    .contact-form
+     
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .contact-form
+     
+    input,
+    .contact-form
+     
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+    
+    .contact-form button {
+      background-color: #007bff; /* Blue background */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    @media (max-width: 1250px) {
+      .header {
+        flex-wrap: wrap;
+        align-items: center; /* Align elements vertically on smaller screens */
+        display: block;
+      }
+    
+      .logo {
+        position: relative;
+        display: block;
+      }
+    
+      .company-name {
+        font-size: 30px;
+        display: block;
+      }
+    
+      .sections li{
+        text-align: center;
+        font-size: 15px;
+        display: block;
+      }
+    }
